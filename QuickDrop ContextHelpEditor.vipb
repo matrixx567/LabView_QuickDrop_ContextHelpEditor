@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-18 23:43:15" Modified_Date="2020-05-14 17:37:24" Creator="Martin" Comments="" ID="f803f50b2da55c75aad15594629123cd">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-18 23:43:15" Modified_Date="2020-10-10 21:09:45" Creator="Martin" Comments="" ID="4375ff8256ebe7da85f9a4958fcc3b16">
   <Library_General_Settings>
     <Package_File_Name>MNProjects_lib_QuickDrop_ContextHelpEditor</Package_File_Name>
-    <Library_Version>0.0.1.1</Library_Version>
+    <Library_Version>0.0.1.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>build</Library_Output_Folder>
@@ -16,7 +16,10 @@
     <Target>LabVIEW</Target>
   </Library_General_Settings>
   <Advanced_Settings>
-    <Package_Dependencies/>
+    <Package_Dependencies>
+      <Additional_External_Dependencies>jki_flat_ui_controls_2_0 &gt;=2.0.1.28</Additional_External_Dependencies>
+      <Additional_External_Dependencies>jki_lib_state_machine &gt;=2018.0.7.45</Additional_External_Dependencies>
+    </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
       <Post-Build_VI/>
@@ -101,18 +104,6 @@
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>help</Path>
-        <Destination>8</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>help/QuickDrop HelpContextEditor.vi</Path>
-        <Destination>8</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
@@ -140,6 +131,12 @@
       </Exclusions>
       <Exclusions>
         <Path>QuickDrop_ContextHelpEditor.lvproj</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>test</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>help</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>LICENSE</License_Agreement_Filepath>
