@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="17008000">
+<Project Type="Project" LVVersion="20008000">
 	<Property Name="CCSymbols" Type="Str"></Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
@@ -20,6 +20,7 @@
 		<Item Name="test" Type="Folder">
 			<Item Name="TestVI.vi" Type="VI" URL="../test/TestVI.vi"/>
 			<Item Name="RunTestVi.vi" Type="VI" URL="../test/RunTestVi.vi"/>
+			<Item Name="TestVI2.vi" Type="VI" URL="../test/TestVI2.vi"/>
 		</Item>
 		<Item Name="ContextHelpEditor.lvlib" Type="Library" URL="../_ContextHelp Editor/ContextHelpEditor.lvlib"/>
 		<Item Name="QuickDrop ContextHelpEditor.vipb" Type="Document" URL="../QuickDrop ContextHelpEditor.vipb"/>
@@ -74,6 +75,7 @@
 				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
+				<Item Name="Path to URL inner.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL inner.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
