@@ -21,6 +21,7 @@
 			<Item Name="TestVI.vi" Type="VI" URL="../test/TestVI.vi"/>
 			<Item Name="RunTestVi.vi" Type="VI" URL="../test/RunTestVi.vi"/>
 			<Item Name="TestVI2.vi" Type="VI" URL="../test/TestVI2.vi"/>
+			<Item Name="Control--cluster.ctl" Type="VI" URL="../test/Control--cluster.ctl"/>
 		</Item>
 		<Item Name="ContextHelpEditor.lvlib" Type="Library" URL="../_ContextHelp Editor/ContextHelpEditor.lvlib"/>
 		<Item Name="QuickDrop ContextHelpEditor.vipb" Type="Document" URL="../QuickDrop ContextHelpEditor.vipb"/>
@@ -70,13 +71,12 @@
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="Parse State Queue__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__JKI_lib_State_Machine.vi"/>
+				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
 				<Item Name="Add State(s) to Queue__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__JKI_lib_State_Machine.vi"/>
-				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
-				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
 				<Item Name="Path to URL inner.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL inner.vi"/>
 			</Item>
+			<Item Name="ContextHelpEditor Chooser.vi" Type="VI" URL="../_ContextHelp Editor/ContextHelpEditor Chooser.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Zip File distribution" Type="Zip File">

@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Library LVVersion="17008000">
-	<Property Name="NI.Lib.Icon" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)Z!!!*Q(C=\&gt;7R43."&amp;-&lt;RD^-&amp;J!\)4W\BN?!7X-*LQ3HB"AD*C/3VY"&lt;=QN?#AZ0O5L&gt;A`D-?7U:#G*-/C9"&gt;RF[_W8HT9X;U30WYF8\K=/WY?`@Y5(_LUCO&gt;PA\(\.R`&lt;)@DR_8F;@Q&lt;`@]U`DT`X;N[(`3`WX`FU0@R@8TNY`\K*P\U`8SD^C+CG6;UJ)8;&gt;!?4G^TE*D?ZS9O]S)O]S)O]S*-]S:-]S:-]S9-]S)-]S)-]S0N*,H+2CRS3G&gt;R-:)K;!O:G+$)@RG-]RG-]`#LD-2\D-2\DY29:D`%9D`%9$].E0-:D0-:D0*4K%P?4()`R5&amp;[&amp;J`!5HM*4?*B3B;=!&amp;*-6B9MC-&amp;2U&amp;B?&amp;J`!5(CZ6?!J0Y3E]B9&gt;O&amp;:\#5XA+4_&amp;B3&amp;_6[JJWEO/BD"*0YEE]C3@R5&amp;K**`%EHM34?*B/C3@R*)BEQK1Y"#7$EBO38R*0YO&amp;,C3@R**\%EXDI[E]I_]IU44P*]13?Q".Y!E`AI91#4_!*0)%H]&amp;"7A3@Q"*\!%XC93I%H]!3?!"*-SP1+CA5$AZO#)0$QUX&gt;,^+&gt;582,^F-&lt;GV&gt;C5'JN.9R.J&lt;![.B[\R-$5?EM&lt;C;SSKRG*J,),'([?"VM"I4+)RO.WI0:]\WJ;WI5WU&amp;7V*7^$GN&amp;E&lt;_J^PX/`XWOVWWG[XWGQWGK:*K^6+S_63C]6#]`F=M^HM`"LYR8F_)2T@3`&gt;=N`&lt;YV\_HZ[@VQ`.4`X\]]\!_^8XC`^EP]'\5$VX7:IV?!%\6&lt;T)!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
+<Library LVVersion="20008000">
+	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)Z!!!*Q(C=\&gt;7R43."&amp;-&lt;RD^-&amp;J!\)4W\BN?!7X-*LQ3HB"AD*C/3VY"&lt;=QN?#AZ0O5L&gt;A`D-?7U:#G*-/C9"&gt;RF[_W8HT9X;U30WYF8\K=/WY?`@Y5(_LUCO&gt;PA\(\.R`&lt;)@DR_8F;@Q&lt;`@]U`DT`X;N[(`3`WX`FU0@R@8TNY`\K*P\U`8SD^C+CG6;UJ)8;&gt;!?4G^TE*D?ZS9O]S)O]S)O]S*-]S:-]S:-]S9-]S)-]S)-]S0N*,H+2CRS3G&gt;R-:)K;!O:G+$)@RG-]RG-]`#LD-2\D-2\DY29:D`%9D`%9$].E0-:D0-:D0*4K%P?4()`R5&amp;[&amp;J`!5HM*4?*B3B;=!&amp;*-6B9MC-&amp;2U&amp;B?&amp;J`!5(CZ6?!J0Y3E]B9&gt;O&amp;:\#5XA+4_&amp;B3&amp;_6[JJWEO/BD"*0YEE]C3@R5&amp;K**`%EHM34?*B/C3@R*)BEQK1Y"#7$EBO38R*0YO&amp;,C3@R**\%EXDI[E]I_]IU44P*]13?Q".Y!E`AI91#4_!*0)%H]&amp;"7A3@Q"*\!%XC93I%H]!3?!"*-SP1+CA5$AZO#)0$QUX&gt;,^+&gt;582,^F-&lt;GV&gt;C5'JN.9R.J&lt;![.B[\R-$5?EM&lt;C;SSKRG*J,),'([?"VM"I4+)RO.WI0:]\WJ;WI5WU&amp;7V*7^$GN&amp;E&lt;_J^PX/`XWOVWWG[XWGQWGK:*K^6+S_63C]6#]`F=M^HM`"LYR8F_)2T@3`&gt;=N`&lt;YV\_HZ[@VQ`.4`X\]]\!_^8XC`^EP]'\5$VX7:IV?!%\6&lt;T)!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
@@ -9,20 +9,21 @@
 
 </Property>
 	<Item Name="typedefs" Type="Folder">
-		<Item Name="ControlElement--control.ctl" Type="VI" URL="../ControlElement--control.ctl"/>
 		<Item Name="ControlRef--cluster.ctl" Type="VI" URL="../ControlRef--cluster.ctl"/>
 		<Item Name="Data--cluster.ctl" Type="VI" URL="../Data--cluster.ctl"/>
 	</Item>
 	<Item Name="TabbedControls" Type="Folder">
+		<Item Name="TabbedControl--cluster.ctl" Type="VI" URL="../TabbedControl--cluster.ctl"/>
 		<Item Name="TabChange State--cluster.ctl" Type="VI" URL="../TabChange State--cluster.ctl"/>
 		<Item Name="HandleTab.vi" Type="VI" URL="../HandleTab.vi"/>
-		<Item Name="TabbedControl--cluster.ctl" Type="VI" URL="../TabbedControl--cluster.ctl"/>
 		<Item Name="GetMCListboxIndex.vi" Type="VI" URL="../GetMCListboxIndex.vi"/>
 		<Item Name="LoadTabControl.vi" Type="VI" URL="../LoadTabControl.vi"/>
 		<Item Name="LoadTabbedControls.vi" Type="VI" URL="../LoadTabbedControls.vi"/>
 	</Item>
 	<Item Name="utils" Type="Folder">
-		<Item Name="ExtractControlRefs.vi" Type="VI" URL="../ExtractControlRefs.vi"/>
+		<Item Name="ExtractControlRefsFromVi.vi" Type="VI" URL="../ExtractControlRefsFromVi.vi"/>
+		<Item Name="ExtractControlRefsFromTypedef.vi" Type="VI" URL="../ExtractControlRefsFromTypedef.vi"/>
+		<Item Name="ExtractControlRefRecursive.vi" Type="VI" URL="../ExtractControlRefRecursive.vi"/>
 		<Item Name="UpdateControlsFromMCListbox.vi" Type="VI" URL="../UpdateControlsFromMCListbox.vi"/>
 		<Item Name="UpdateMCListboxFromControls.vi" Type="VI" URL="../UpdateMCListboxFromControls.vi"/>
 	</Item>
