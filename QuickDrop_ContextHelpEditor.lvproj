@@ -18,8 +18,8 @@
 			<Item Name="QuickDrop ContextHelpEditor.vi" Type="VI" URL="../help/QuickDrop ContextHelpEditor.vi"/>
 		</Item>
 		<Item Name="test" Type="Folder">
-			<Item Name="TestVI.vi" Type="VI" URL="../test/TestVI.vi"/>
 			<Item Name="RunTestVi.vi" Type="VI" URL="../test/RunTestVi.vi"/>
+			<Item Name="TestVI.vi" Type="VI" URL="../test/TestVI.vi"/>
 			<Item Name="TestVI2.vi" Type="VI" URL="../test/TestVI2.vi"/>
 			<Item Name="Control--cluster.ctl" Type="VI" URL="../test/Control--cluster.ctl"/>
 		</Item>
@@ -72,27 +72,15 @@
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
-				<Item Name="Add State(s) to Queue__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__JKI_lib_State_Machine.vi"/>
+				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="Path to URL inner.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL inner.vi"/>
-			</Item>
-			<Item Name="ContextHelpEditor Chooser.vi" Type="VI" URL="../_ContextHelp Editor/ContextHelpEditor Chooser.vi"/>
-		</Item>
-		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Zip File distribution" Type="Zip File">
-				<Property Name="Absolute[0]" Type="Bool">false</Property>
-				<Property Name="BuildName" Type="Str">Zip File distribution</Property>
-				<Property Name="Comments" Type="Str"></Property>
-				<Property Name="DestinationID[0]" Type="Str">{8162C916-32E6-493B-9C7C-5E5D1FF82FD1}</Property>
-				<Property Name="DestinationItemCount" Type="Int">1</Property>
-				<Property Name="DestinationName[0]" Type="Str">Destination Directory</Property>
-				<Property Name="IncludedItemCount" Type="Int">1</Property>
-				<Property Name="IncludedItems[0]" Type="Ref">/My Computer/ContextHelpEditor.lvlib</Property>
-				<Property Name="IncludedItems[1]" Type="Ref"></Property>
-				<Property Name="IncludeProject" Type="Bool">false</Property>
-				<Property Name="Path[0]" Type="Path">../build/QuickDrop_AlignElements.zip</Property>
-				<Property Name="ZipBase" Type="Str">NI_zipbasevirtual</Property>
+				<Item Name="TRef TravTarget.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef TravTarget.ctl"/>
+				<Item Name="TRef Traverse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef Traverse.vi"/>
+				<Item Name="VI Scripting - Traverse.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/traverseref.llb/VI Scripting - Traverse.lvlib"/>
+				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 			</Item>
 		</Item>
+		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
