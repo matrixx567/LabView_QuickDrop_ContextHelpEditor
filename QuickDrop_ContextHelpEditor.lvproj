@@ -23,7 +23,7 @@
 			<Item Name="TestVI2.vi" Type="VI" URL="../test/TestVI2.vi"/>
 			<Item Name="Control--cluster.ctl" Type="VI" URL="../test/Control--cluster.ctl"/>
 		</Item>
-		<Item Name="ContextHelpEditor.lvlib" Type="Library" URL="../_ContextHelp Editor/ContextHelpEditor.lvlib"/>
+		<Item Name="ContextHelpEditor.lvlib" Type="Library" URL="../src/_ContextHelp Editor/ContextHelpEditor.lvlib"/>
 		<Item Name="QuickDrop ContextHelpEditor.vipb" Type="Document" URL="../QuickDrop ContextHelpEditor.vipb"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
