@@ -1,5 +1,7 @@
 # LabView QuickDrop ContextHelpEditor
 
+[![Image](https://www.vipm.io/package/mnprojects_lib_quickdrop_contexthelpeditor/badge.svg?metric=installs)](https://www.vipm.io/package/mnprojects_lib_quickdrop_contexthelpeditor/) [![Image](https://www.vipm.io/package/mnprojects_lib_quickdrop_contexthelpeditor/badge.svg?metric=stars)](https://www.vipm.io/package/mnprojects_lib_quickdrop_contexthelpeditor/)
+
 A QuickDrop plugin that opens an editor for easier VI documentation.
 
 
