@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2019-04-18 23:43:15" Modified_Date="2025-07-16 07:26:37" Creator="Martin" Comments="" ID="62db2c44601422ec6e23ebf67dbd6bf7">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2019-04-18 23:43:15" Modified_Date="2025-07-16 07:52:10" Creator="Martin" Comments="" ID="f301c213e5a7e3017ae4d5f43ea7fa3a">
   <Library_General_Settings>
     <Package_File_Name>MNProjects_lib_QuickDrop_ContextHelpEditor</Package_File_Name>
-    <Library_Version>1.1.0.12</Library_Version>
+    <Library_Version>1.1.0.13</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>build</Library_Output_Folder>
@@ -44,7 +44,8 @@ The Quick Drop plug-in uses the default shortcut H.</Description>
       <Copyright/>
       <Packager>Martin Nöhrer</Packager>
       <URL>https://github.com/matrixx567/LabView_QuickDrop_ContextHelpEditor</URL>
-      <Release_Notes>Add description of wiring rules (rec, req, opt) to controls.</Release_Notes>
+      <Release_Notes>Add description of wiring rules (rec, req, opt) to controls.
+Add description of datatype to controls.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
