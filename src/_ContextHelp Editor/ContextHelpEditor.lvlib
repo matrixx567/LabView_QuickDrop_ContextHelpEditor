@@ -26,6 +26,7 @@
 		<Item Name="ExtractControlRefRecursive.vi" Type="VI" URL="../ExtractControlRefRecursive.vi"/>
 		<Item Name="UpdateControlsFromMCListbox.vi" Type="VI" URL="../UpdateControlsFromMCListbox.vi"/>
 		<Item Name="UpdateMCListboxFromControls.vi" Type="VI" URL="../UpdateMCListboxFromControls.vi"/>
+		<Item Name="GetDataTypeDescription.vi" Type="VI" URL="../GetDataTypeDescription.vi"/>
 	</Item>
 	<Item Name="ContextHelpEditor VI.vi" Type="VI" URL="../ContextHelpEditor VI.vi"/>
 	<Item Name="ContextHelp Editor.vi" Type="VI" URL="../../ContextHelp Editor.vi"/>
