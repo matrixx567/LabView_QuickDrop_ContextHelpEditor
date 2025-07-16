@@ -5,7 +5,7 @@
 A QuickDrop plugin that opens an editor for easier VI documentation.
 
 
-It simply allows writing documentations for VIs and Typedefs during the development process. The editor provides an intuitive navigation only using the keayboard for fast writing.
+It simply allows writing documentations for VIs and Typedefs during the development process. The editor provides an intuitive navigation only using the keyboard for fast writing.
 
 
 ![Screenshot](../master/docs/Screenshot.png)
